@@ -1,0 +1,24 @@
+.from_container{
+    display: grid;
+    justify-content: center;
+}
+.from_container h3{
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+.from_container form > div:not(:last-child){
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+.from_container form > div:last-child{
+    display: flex;
+    justify-content: center;
+}
+.from_container form > div:last-child button{
+    padding: 0.25rem 0.5rem;
+    font-size: 1em;
+    cursor: pointer;
+}
+

@@ -1,0 +1,14 @@
+
+header{
+    background: black;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    padding: 1rem;
+  }
+  header img{
+    height: 3rem;
+    width: 3rem;
+  }
+  
